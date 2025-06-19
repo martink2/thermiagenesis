@@ -12,6 +12,7 @@ from homeassistant.const import UnitOfTemperature
 ATTR_ICON = "icon"
 ATTR_LABEL = "label"
 ATTR_MANUFACTURER = "Thermia"
+ATTR_MODEL = "Thermia Genesis"
 ATTR_STATUS = "status"
 ATTR_UNIT = "unit"
 ATTR_CLASS = "device_class"
@@ -23,6 +24,9 @@ ATTR_SCALE = "scale"
 ATTR_ADDR = "address"
 ATTR_MAX_VALUE = "max_value"
 ATTR_MIN_VALUE = "min_value"
+
+ATTR_COUNTER = "counter"
+ATTR_FIRMWARE = "firmware"
 
 KEY_STATE_ATTRIBUTES = "state_attrs"
 KEY_STATUS_VALUE = "status_value"

@@ -16,10 +16,9 @@ from .const import HEATPUMP_ALARMS
 from .const import HEATPUMP_ATTRIBUTES
 from .const import HEATPUMP_SENSOR
 from .const import SENSOR_TYPES
-
-ATTR_COUNTER = "counter"
-ATTR_FIRMWARE = "firmware"
-ATTR_MODEL = "Diplomat Inverter Duo"
+from .const import ATTR_MODEL
+from .const import ATTR_COUNTER
+from .const import ATTR_FIRMWARE
 
 _LOGGER = logging.getLogger(__name__)
 

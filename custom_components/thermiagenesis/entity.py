@@ -6,8 +6,8 @@ from homeassistant.helpers.update_coordinator import CoordinatorEntity
 
 from .const import ATTR_MANUFACTURER
 from .const import DOMAIN
+from .const import ATTR_MODEL
 
-ATTR_MODEL = "Diplomat Inverter Duo"
 ATTR_FIRMWARE = "firmware"
 
 _LOGGER: logging.Logger = logging.getLogger(__package__)

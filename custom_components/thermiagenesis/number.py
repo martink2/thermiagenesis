@@ -14,10 +14,9 @@ from .const import ATTR_MIN_VALUE
 from .const import ATTR_UNIT
 from .const import DOMAIN
 from .const import NUMBER_TYPES
-
-ATTR_COUNTER = "counter"
-ATTR_FIRMWARE = "firmware"
-ATTR_MODEL = "Diplomat Inverter Duo"
+from .const import ATTR_MODEL
+from .const import ATTR_COUNTER
+from .const import ATTR_FIRMWARE
 
 _LOGGER = logging.getLogger(__name__)
 

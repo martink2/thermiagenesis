@@ -9,10 +9,9 @@ from .const import ATTR_LABEL
 from .const import ATTR_MANUFACTURER
 from .const import DOMAIN
 from .const import SWITCH_TYPES
-
-ATTR_COUNTER = "counter"
-ATTR_FIRMWARE = "firmware"
-ATTR_MODEL = "Diplomat Inverter Duo"
+from .const import ATTR_MODEL
+from .const import ATTR_COUNTER
+from .const import ATTR_FIRMWARE
 
 _LOGGER = logging.getLogger(__name__)
 

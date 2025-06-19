@@ -23,9 +23,8 @@ from .const import ATTR_STATUS
 from .const import CLIMATE_TYPES
 from .const import DOMAIN
 from .const import KEY_STATUS_VALUE
-
-ATTR_FIRMWARE = "firmware"
-ATTR_MODEL = "Diplomat Inverter Duo"
+from .const import ATTR_MODEL
+from .const import ATTR_FIRMWARE
 
 _LOGGER = logging.getLogger(__name__)
 
